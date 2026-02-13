@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Thêm đoạn này để web mượt hơn */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #fff0f3;
+  overflow-x: hidden;
+}
+
+.title-font {
+  font-family: 'Pacifico', cursive;
+}
