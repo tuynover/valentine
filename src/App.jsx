@@ -4,10 +4,10 @@ import confetti from 'canvas-confetti';
 import { Heart, Music, Image as ImageIcon, Sparkles, Gift } from 'lucide-react';
 // 1. Những tấm ảnh đặc biệt (có caption riêng)
 const SPECIAL_MEMORIES = [
-  { id: 's1', src: '/images/beauty1.jpg', text: "Vẻ đẹp khiến anh say đắm..." },
-  { id: 's2', src: '/images/funny.jpg', text: "Sự đáng yêu khiến anh cười cả ngày..." },
-  { id: 's3', src: '/images/muse.jpg', text: "Nàng thơ của cuộc đời anh..." },
-  { id: 's4', src: '/images/night.jpg', text: "Dù là đêm tối, em vẫn toả sáng..." },
+  { id: 's1', src: 'images/beauty1.jpg', text: "Vẻ đẹp khiến anh say đắm..." },
+  { id: 's2', src: 'images/funny.jpg', text: "Sự đáng yêu khiến anh cười cả ngày..." },
+  { id: 's3', src: 'images/muse.jpg', text: "Nàng thơ của cuộc đời anh..." },
+  { id: 's4', src: 'images/night.jpg', text: "Dù là đêm tối, em vẫn toả sáng..." },
 ];
 
 // 2. Tự động thêm các ảnh khác (img1.jpg, img2.jpg...)
@@ -16,7 +16,7 @@ const TOTAL_OTHER_IMAGES = 8;
 
 const OTHER_MEMORIES = Array.from({ length: TOTAL_OTHER_IMAGES }, (_, i) => ({
   id: `o${i}`,
-  src: `/images/img${i + 1}.jpg`, // Nó sẽ tự tìm img1.jpg, img2.jpg...
+  src: `images/img${i + 1}.jpg`, // Nó sẽ tự tìm img1.jpg, img2.jpg...
   text: "ANh yêu em rất nhiều" // Caption chung cho các ảnh này
 }));
 
