@@ -29,13 +29,13 @@ const SPECIAL_MEMORIES = [
 
 const OTHER_MEMORIES = [
   { id: 'o1', src: img1, text: "Anh yêu em rất nhiều" },
-  { id: 'o2', src: img2, text: "Anh yêu em rất nhiều" },
-  { id: 'o3', src: img3, text: "Anh yêu em rất nhiều" },
-  { id: 'o4', src: img4, text: "Anh yêu em rất nhiều" },
-  { id: 'o5', src: img5, text: "Anh yêu em rất nhiều" },
-  { id: 'o6', src: img6, text: "Anh yêu em rất nhiều" },
-  { id: 'o7', src: img7, text: "Anh yêu em rất nhiều" },
-  { id: 'o8', src: img8, text: "Anh yêu em rất nhiều" },
+  { id: 'o2', src: img2, text: "Công túa của anh" },
+  { id: 'o3', src: img3, text: "Cục cưng xinh đẹp" },
+  { id: 'o4', src: img4, text: "Em bé siu đáng iu" },
+  { id: 'o5', src: img5, text: "Bà nội cụa anh" },
+  { id: 'o6', src: img6, text: "Phưn Thẻo iu dấu" },
+  { id: 'o7', src: img7, text: "I love du to the moon and back" },
+  { id: 'o8', src: img8, text: "Happy va lung tung" },
 ];
 
 const MEMORIES = [...SPECIAL_MEMORIES, ...OTHER_MEMORIES];
@@ -184,8 +184,7 @@ export default function App() {
             </div>
 
             <p className="text-gray-700 text-justify">
-              Cảm ơn em vì đã xuất hiện và làm cho thế giới của anh trở nên rực rỡ.
-              Anh yêu em rất nhiều ❤️
+             <p> Gửi <b>Phưn Thảo</b> của anh, </p> <p> Cảm ơn em vì đã xuất hiện và làm cho thế giới của anh trở nên rực rỡ sắc màu hí hí. Anh đã cố gắng để nói rằng: Anh yêu em rất nhiều! </p> <p> Mong rằng nụ cười của em sẽ luôn toả nắng như trong những bức ảnh kia. Yêu em bé nhìu! ❤️ </p> <p className="text-right font-bold mt-4 text-love">- Công Tuyền -</p>
             </p>
           </motion.div>
         )}
